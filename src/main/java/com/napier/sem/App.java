@@ -128,6 +128,7 @@ public class App
             {
                 // Close connection
                 con.close();
+                System.out.println("Disconnected from the database");
             }
             catch (Exception e)
             {
